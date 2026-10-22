@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Zotero Pi Agent",
+  "version": "__VERSION__",
+  "description": "AI 阅读助手：基于 pi agent 的划词问答、翻译、自主批注与文章级对话",
+  "author": "zotero-pi-agent",
+  "icons": {
+    "48": "content/icons/icon.svg",
+    "96": "content/icons/icon.svg"
+  },
+  "applications": {
+    "zotero": {
+      "id": "zotero-pi-agent@zoteropi.local",
+      "update_url": "https://localhost/zotero-pi-agent/updates.json",
+      "strict_min_version": "7.0",
+      "strict_max_version": "9.*"
+    }
+  }
+}

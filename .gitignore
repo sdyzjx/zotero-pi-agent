@@ -1,0 +1,10 @@
+node_modules/
+build/
+addon/content/core.js
+addon/content/chat.js
+addon/content/settings.js
+addon/content/*.js.map
+addon/content/vendor/
+*.xpi
+.env
+.DS_Store
